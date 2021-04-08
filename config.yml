@@ -1,26 +1,25 @@
 baseURL : "http://examplesite.com" #copy-paste your domain here
-languageCode : "en"
-defaultContentLanguage : "en"
-title : "Tutorial Site"
-theme : "anatole"
-summarylength : 50
-enableRobotsTXT : true #leave true for seo
+languageCode : "en" #used in SEO tags
+title : "Tutorial Site" #actual title of the site used in browser tabs as well as SEO
+theme : "anatole" #name of the directory containing theme files
+summarylength : 50 #summary length shown on list pages
+enableRobotsTXT : true #leave true for SEO
 #this file instructs search engine crawlers on how to acess the site
 
 params:
-  title : "I'm Jane Doe"
+  title : "I'm Jane Doe" #emphasised line on the homepage
   author : "Jane Doe"
-  copyright : "2020-2021"
-  description : "Call me Jane"
-  profilePicture : "profile.png"
+  copyright : "2020-2021" #copyright text in the footer
+  description : "Call me Jane" #introduction line on homepage
+  profilePicture : "profile.png" #the name of the profile img to be displayed (relative to the static folder)
   keywords : "" #seo keywords for your homepage
   #favicons are small images displayed in the browser tab similar to app icons
   favicon : "favicons/" #directory name holding the favicons (relative to the static folder)
-  #which folder to use to list posts on the homepage (relative to the content dir)
   mainSections : ["blog"]
-  images : ["featured-image.png"]
-  doNotLoadAnimations : false
-  postSectionName : "blog"
+  #which folder to use to list posts on the homepage (relative to the content dir)
+  images : ["featured-image.png"] #image used for social media previews
+  doNotLoadAnimations : false #set to true to disable animations
+  postSectionName : "blog" #the slug of the "archives" listing page
   #uncomment this if you want your site to load in dark-mode by default.
   # displayMode: "dark" 
 
@@ -52,15 +51,16 @@ params:
     enable : false  # options: true, false.
 
 ## Menu items
+#weight defines which entry is shown first
 menu:
   main:
     - name : "Home"
       identifier : "home"
       weight : 100
       url : "/"
-    - name : "Posts"
+    - name : "Archives"
       weight : 200
-      identifier : "posts"
+      identifier : "archives"
       url : "/blog"
     - name : "About"
       weight : 300
