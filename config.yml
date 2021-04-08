@@ -1,10 +1,11 @@
-baseURL : "https://cryptic-code.github.io/hugo-anatole/"
+baseURL : "http://examplesite.com" #copy-paste your domain here
 languageCode : "en"
 DefaultContentLanguage : "en"
 title : "Tutorial Site"
 theme : "anatole"
 summarylength : 50
-enableRobotsTXT : true
+enableRobotsTXT : true #leave true for seo
+#this file instructs search engine crawlers on how to acess the site
 
 params:
   title : "I'm Jane Doe"
@@ -12,19 +13,20 @@ params:
   copyright : "2020-2021"
   description : "Call me Jane"
   profilePicture : "profile.png"
-  keywords : ""
-  favicon : "favicons/"
-  # example ["css/custom.css"]
-  customCss : []
-  # example ["js/custom.js"]
-  customJs : []
+  keywords : "" #seo keywords for your homepage
+  #favicons are small images displayed in the browser tab similar to app icons
+  favicon : "favicons/" #directory name holding the favicons (relative to the static folder)
+  #which folder to use to list posts on the homepage (relative to the content dir)
   mainSections : ["blog"]
   images : ["featured-image.png"]
   doNotLoadAnimations : false
   postSectionName : "blog"
-  # displayMode: "dark"
+  #uncomment this if you want your site to load in dark-mode by default.
+  # displayMode: "dark" 
 
   ## Social links
+  #the icons are loaded from font-awesome library
+  #find the icon codes here: https://fontawesome.com/icons?d=gallery&p=2
   # use 'fab' when brand icons, use 'fas' when standard solid icons.
   socialIcons:
     - icon : "fab fa-linkedin"
@@ -40,22 +42,14 @@ params:
       title : "e-mail"
       url : "mailto:mail@example.com"
 
-  # Form Spree Contact Form
-  #contactFormAction : "https://formspree.io/f/your-form-hash-here"
-  # Google Site Verify
+  # Google Search Console Verification
   #googleSiteVerify : "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
-  # indexDateFormat : "Mon, Jan 2, 2006"
-  # listDateFormat : "Jan 2"
-  # singleDateFormat : "Mon, Jan 2, 2006"
-  # Commento Comments
-  # CommentoURL : "https://commento.example.com/js/commento.js"
   # Read More links for truncated summaries
   # readMore : true
 
   ## Math settings
   math:
-    enable : false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
-    use : "katex"  # options: "katex", "mathjax". default is "katex".
+    enable : false  # options: true, false.
 
 ## Menu items
 menu:
@@ -67,15 +61,11 @@ menu:
     - name : "Posts"
       weight : 200
       identifier : "posts"
-      url : "/post/"
+      url : "/blog"
     - name : "About"
       weight : 300
       identifier : "about"
-      url : "/about/"
-    - name : "Contact"
-      weight : 400
-      identifier : "contact"
-      url : "/contact/"
+      url : "/about"
 
 taxonomies:
   category: categories
@@ -83,21 +73,14 @@ taxonomies:
   tag: tags
 
 timeout: 30000
+#required to exit out of long posts requiring lot of processing.
 
 minify:
   disableXML: true
   minifyOutput: false
 
-# Enable Disqus
-#disqusShortname : ""
-
 # Google Analytics
 # Hugo supports GA4 V8.20 (latest at the time of writing) onwards.
 #googleAnalytics : "UA-123-45"
-
-# Syntax highlighting
-pygmentsUseClasses : true
-pygmentsCodeFences : true
-pygmentsCodefencesGuessSyntax : true
 
 publishDir: "docs"
