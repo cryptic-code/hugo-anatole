@@ -1,4 +1,4 @@
-baseURL : "http://examplesite.com" #copy-paste your domain here
+baseURL : "https://cryptic-code.github.io/hugo-anatole/" #copy-paste your domain here
 languageCode : "en" #used in SEO tags
 title : "Tutorial Site" #actual title of the site used in browser tabs as well as SEO
 theme : "anatole" #name of the directory containing theme files
