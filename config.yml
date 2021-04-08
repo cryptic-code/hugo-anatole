@@ -1,6 +1,6 @@
 baseURL : "http://examplesite.com" #copy-paste your domain here
 languageCode : "en"
-DefaultContentLanguage : "en"
+defaultContentLanguage : "en"
 title : "Tutorial Site"
 theme : "anatole"
 summarylength : 50

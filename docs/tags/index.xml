@@ -2,107 +2,107 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Tutorial Site</title>
-    <link>https://cryptic-code.github.io/hugo-anatole/tags/</link>
+    <link>http://examplesite.com/tags/</link>
     <description>Recent content in Tags on Tutorial Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 13 Mar 2021 21:47:41 +0000</lastBuildDate><atom:link href="https://cryptic-code.github.io/hugo-anatole/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Mar 2021 21:47:41 +0000</lastBuildDate><atom:link href="http://examplesite.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>demo</title>
-      <link>https://cryptic-code.github.io/hugo-anatole/tags/demo/</link>
+      <link>http://examplesite.com/tags/demo/</link>
       <pubDate>Sat, 13 Mar 2021 21:47:41 +0000</pubDate>
       
-      <guid>https://cryptic-code.github.io/hugo-anatole/tags/demo/</guid>
+      <guid>http://examplesite.com/tags/demo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>shortcode</title>
-      <link>https://cryptic-code.github.io/hugo-anatole/tags/shortcode/</link>
+      <link>http://examplesite.com/tags/shortcode/</link>
       <pubDate>Sat, 13 Mar 2021 21:47:41 +0000</pubDate>
       
-      <guid>https://cryptic-code.github.io/hugo-anatole/tags/shortcode/</guid>
+      <guid>http://examplesite.com/tags/shortcode/</guid>
       <description></description>
     </item>
     
     <item>
       <title>css</title>
-      <link>https://cryptic-code.github.io/hugo-anatole/tags/css/</link>
+      <link>http://examplesite.com/tags/css/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://cryptic-code.github.io/hugo-anatole/tags/css/</guid>
+      <guid>http://examplesite.com/tags/css/</guid>
       <description></description>
     </item>
     
     <item>
       <title>html</title>
-      <link>https://cryptic-code.github.io/hugo-anatole/tags/html/</link>
+      <link>http://examplesite.com/tags/html/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://cryptic-code.github.io/hugo-anatole/tags/html/</guid>
+      <guid>http://examplesite.com/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
       <title>markdown</title>
-      <link>https://cryptic-code.github.io/hugo-anatole/tags/markdown/</link>
+      <link>http://examplesite.com/tags/markdown/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://cryptic-code.github.io/hugo-anatole/tags/markdown/</guid>
+      <guid>http://examplesite.com/tags/markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>privacy</title>
-      <link>https://cryptic-code.github.io/hugo-anatole/tags/privacy/</link>
+      <link>http://examplesite.com/tags/privacy/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://cryptic-code.github.io/hugo-anatole/tags/privacy/</guid>
+      <guid>http://examplesite.com/tags/privacy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>shortcodes</title>
-      <link>https://cryptic-code.github.io/hugo-anatole/tags/shortcodes/</link>
+      <link>http://examplesite.com/tags/shortcodes/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://cryptic-code.github.io/hugo-anatole/tags/shortcodes/</guid>
+      <guid>http://examplesite.com/tags/shortcodes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>text</title>
-      <link>https://cryptic-code.github.io/hugo-anatole/tags/text/</link>
+      <link>http://examplesite.com/tags/text/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://cryptic-code.github.io/hugo-anatole/tags/text/</guid>
+      <guid>http://examplesite.com/tags/text/</guid>
       <description></description>
     </item>
     
     <item>
       <title>emoji</title>
-      <link>https://cryptic-code.github.io/hugo-anatole/tags/emoji/</link>
+      <link>http://examplesite.com/tags/emoji/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://cryptic-code.github.io/hugo-anatole/tags/emoji/</guid>
+      <guid>http://examplesite.com/tags/emoji/</guid>
       <description></description>
     </item>
     
     <item>
       <title>thumbnail</title>
-      <link>https://cryptic-code.github.io/hugo-anatole/tags/thumbnail/</link>
+      <link>http://examplesite.com/tags/thumbnail/</link>
       <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://cryptic-code.github.io/hugo-anatole/tags/thumbnail/</guid>
+      <guid>http://examplesite.com/tags/thumbnail/</guid>
       <description></description>
     </item>
     
     <item>
       <title>index</title>
-      <link>https://cryptic-code.github.io/hugo-anatole/tags/index/</link>
+      <link>http://examplesite.com/tags/index/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://cryptic-code.github.io/hugo-anatole/tags/index/</guid>
+      <guid>http://examplesite.com/tags/index/</guid>
       <description></description>
     </item>
     

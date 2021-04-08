@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>thumbnail on Tutorial Site</title>
-    <link>https://cryptic-code.github.io/hugo-anatole/tags/thumbnail/</link>
+    <link>http://examplesite.com/tags/thumbnail/</link>
     <description>Recent content in thumbnail on Tutorial Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 04 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://cryptic-code.github.io/hugo-anatole/tags/thumbnail/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://examplesite.com/tags/thumbnail/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Guide to Thumbnails in Hugo</title>
-      <link>https://cryptic-code.github.io/hugo-anatole/blog/image-test/</link>
+      <link>http://examplesite.com/blog/image-test/</link>
       <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://cryptic-code.github.io/hugo-anatole/blog/image-test/</guid>
+      <guid>http://examplesite.com/blog/image-test/</guid>
       <description>Thumbnails can be enabled easily by setting the thumbnail parameter in the frontmatter to an image such as &amp;quot;images/landscape.jpg&amp;quot;.
 Make sure to copy the image the static/images/ directory.
 If put together, it will look like this (that&amp;rsquo;s in fact this post&amp;rsquo;s frontmatter):
